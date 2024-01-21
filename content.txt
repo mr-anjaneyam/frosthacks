@@ -1,0 +1,39 @@
+Webpages:
+1. Homepage:
+	-> overview and purpose
+	-> search bar and quick access to search for specific information
+2. About Page:
+	-> Detailed information about the website, purpose, working
+3. City Information:
+	-> City's food scene
+	-> local food sources(restaurants) by rating
+	-> Popular Dishes
+4. Education Page: descriptive
+	-> Food Safety
+	-> Stay Healthy
+	-> Safe Food Preparation
+5. Restaurant Page:
+	-> About the Restaurant
+	-> Dishes Offered
+	-> Reviews
+	-> Food Security Rating 
+6. Reports Page:
+	Report on:
+		-> restaurants
+		- illness details
+		-> website usage
+		
+		
+Forms:
+7. Report illness page: food thinnaka emaina aithe fill cheyadaniki
+	-> User name
+	-> User contact
+	-> Date, Time and Location
+	-> Food consumed
+	-> Symptoms
+	-> Severity
+8. Report Safety Concern Form: issues related to food
+	-> Date, Time, Location
+	-> Nature of issue: (hygiene related, equipment related.. )
+	-> Description
+	-> User contact information

@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .content {
+            max-width: 800px;
+            margin: auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+        }
+        h1 {
+            color: #3498db;
+        }
+        p {
+            line-height: 1.6;
+        }
+        .contact-btn {
+            display: inline-block;
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+        .contact-btn:hover {
+            background-color: #1f78c1;
+        }
+        h2 {
+            color: #3498db;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .submit-btn {
+            background-color: #3498db;
+            color: #fff;
+            padding: 12px 20px;
+            border: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+        .submit-btn:hover {
+            background-color: #1f78c1;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="content">
+        <h1>Contact us</h1>
+        <p>At Wellness Revolution, our primary objective is to deliver top-notch content that imparts clarity and inspires positive actions throughout the health and well-being journeys of our readers. When a member of our community raises concerns about our content, whether it's incomplete, inaccurate, outdated, unclear, or contradictory, we promptly address it. Our dedicated editorial and medical teams thoroughly investigate the feedback, identify areas for improvement, and update our content with the necessary revisions.
+            <br>
+            For those interested in sponsorship and advertising opportunities with Wellness Revolution, kindly refer to our Advertising page on the Wellness Revolution Media website. We highly value your privacy, and it's essential to note that any information provided via this website may be stored on servers located outside the EU. If you do not consent to this data placement, please refrain from providing the information. Should you have any inquiries, feel free to reach out to privacypolicy@wellnessrevolution.com.
+            <br>
+            It's crucial to understand that Wellness Revolution is a digital publisher and does not provide personal health or medical advice. If you encounter any issues or have feedback, please use the form above to notify us. Your well-being is our priority.</p>
+
+        
+    
+    <div class="contact-form">
+        
+       <h4> <p>Please provide the following details:</p></h4>
+
+        <div class="form-group">
+            <label for="email">Email:</label>
+            <input type="email" id="email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="name">Name:</label>
+            <input type="text" id="name" required>
+        </div>
+
+        <div class="form-group">
+            <label for="problemType">Type of Problem:</label>
+            <input type="text" id="problemType" required>
+        </div>
+
+        <div class="form-group">
+            <label for="description">Description:</label>
+            <textarea id="description" rows="4" required></textarea>
+        </div>
+
+        <button class="submit-btn" onclick="submitForm()">Contact us</button>
+    </div>
+    </div>
+
+    <script>
+        function submitForm() {
+            var email = document.getElementById('email').value;
+            var name = document.getElementById('name').value;
+            var problemType = document.getElementById('problemType').value;
+            var description = document.getElementById('description').value;
+
+            // Perform any additional processing or validation here
+
+            // Show an alert indicating successful submission
+            alert('Request submitted!');
+        }
+    </script>
+
+
+</body>
+
+</body>
+</html>
